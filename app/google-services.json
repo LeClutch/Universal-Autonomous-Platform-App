@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "72300480677",
+    "firebase_url": "https://universalplatform490-default-rtdb.firebaseio.com",
+    "project_id": "universalplatform490",
+    "storage_bucket": "universalplatform490.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72300480677:android:afefbf19b5b0b74bd3254c",
+        "android_client_info": {
+          "package_name": "com.example.universalplatform"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72300480677-tpf66kf77h6dt6v8b9ehj9k7gmucm8h8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.universalplatform",
+            "certificate_hash": "93d4504c594b4e2d3ed47d4451d4277ff0cb02ab"
+          }
+        },
+        {
+          "client_id": "72300480677-fv0g58m7an5dg2oil5hn6uhm63uad2p3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7MHoyFzoLSJNPZqLMcNJCs4xgjKGIbuk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "72300480677-fv0g58m7an5dg2oil5hn6uhm63uad2p3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

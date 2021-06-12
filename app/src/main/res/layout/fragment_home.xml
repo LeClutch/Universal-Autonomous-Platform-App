@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment"
+    android:id="@+id/homeFragment"
+    android:background="@color/colorPrimary"
+    >
+
+    <ImageView
+        android:id="@+id/robotImageView"
+        android:layout_width="140dp"
+        android:layout_height="112dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="150dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/rob2"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="119dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/connect" />
+
+    <TextView
+        android:id="@+id/connectionStatusTextView"
+        android:layout_width="229dp"
+        android:layout_height="64dp"
+        android:layout_above="@id/robotImageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="-19dp"
+        android:gravity="center"
+        android:text="Device Disconnected"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logoname" />
+
+</RelativeLayout>

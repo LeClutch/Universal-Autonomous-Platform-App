@@ -1,0 +1,2 @@
+rootProject.name='Universal Platform'
+include ':app'

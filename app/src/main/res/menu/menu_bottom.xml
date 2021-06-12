@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cnb_unselectedColor="#FFFFFF"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/homeButton"
+        android:title="Home"
+        android:icon="@drawable/home"
+        android:iconTint="#FFFFFF"
+        app:cnb_iconColor="@color/colorPrimary"
+        app:cnb_textColor="#000000"/>
+
+    <item
+        android:id="@+id/mapButton"
+        android:title="Map"
+        android:icon="@drawable/map"
+        app:cnb_iconColor="@color/colorPrimary"
+        app:cnb_textColor="#000000"/>
+
+    <item
+        android:id="@+id/informationButton"
+        android:title="Information"
+        android:icon="@drawable/information"
+        app:cnb_iconColor="@color/colorPrimary"
+        app:cnb_textColor="#000000"/>
+
+    <item
+        android:id="@+id/accountButton"
+        android:title="Account"
+        android:icon="@drawable/person"
+        app:cnb_iconColor="@color/colorPrimary"
+        app:cnb_textColor="#000000"/>
+</menu>
